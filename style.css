@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: lavenderblush;
+    width: 100%;
+}
+
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+
+.container h1{
+    text-align: center;
+    font-family: Kokonor;
+    font-size: 38px;
+}
+
+p{
+    font-size: 23px;
+    text-align: center;
+    font-family: Apple Chancery;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    font-size: 15px;
+    padding: 8px;
+    width: 30%;
+    background-color: white;
+}
+
+.btn{
+    color: purple;
+    background: navajowhite;
+    padding: 8px 12px;
+    font-size: 13px;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 7%;
+}
+
